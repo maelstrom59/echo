@@ -55,8 +55,7 @@ SETUP_XML = """<?xml version="1.0"?>
 """
 
 
-def dbg(msg):
-    logging.debug(msg)
+dbg = logging.debug
 
 
 # A simple utility class to wait for incoming data to be
