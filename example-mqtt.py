@@ -9,9 +9,9 @@ import time
 logging.basicConfig(level=logging.DEBUG)
 
 # ---------- Network constants -----------
-ECHO_LIVINGROOM = "192.168.1.53"
-ECHO_KITCHEN  = "192.168.1.243"
-MQTT_HOST = "jarvis"
+ECHO_LIVINGROOM = "192.168.1.100"
+ECHO_KITCHEN  = "192.168.1.101"
+MQTT_HOST = "localhost"
 MQTT_PORT = 1883
 
 # ---------- Device callback functions ----------
